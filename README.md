@@ -1,14 +1,14 @@
 # Automatización de Módulos en advantagedemoshopping con Página de Objetos (POM) en Cypress - Noviembre 2023
 
-¡Saludos! Me llamo Luis Penagos y estoy emocionado de compartir cómo he implementado la automatización de los módulos en la página de aprendizaje advantagedemoshopping utilizando el enfoque de Página de Objetos (POM) en Cypress.
+¡Saludos! Me llamo Luis Penagos y estoy emocionado de compartir cómo he implementado la automatización de los módulos en la página de aprendizaje www.advantageonlineshopping.com/ utilizando el enfoque de Página de Objetos (POM) en Cypress.
 
 ## Acerca del Proyecto
 
-advantagedemoshopping es una plataforma en constante evolución, diseñada para propósitos educativos. En este proyecto, he aplicado Cypress, una herramienta de automatización de pruebas, para garantizar la estabilidad y confiabilidad de los módulos críticos de la aplicación.
+www.advantageonlineshopping.com/ es una plataforma de aprendizaje para automatización, diseñada para propósitos educativos. En este proyecto, he aplicado Cypress, una herramienta de automatización de pruebas, para garantizar la estabilidad y confiabilidad de los módulos críticos de la aplicación.
 
 ## Actualización a Noviembre de 2023
 
-Es importante tener en cuenta que debido a la naturaleza cambiante de advantagedemoshopping, he mantenido la automatización actualizada hasta noviembre de 2023. Esto implica adaptarse a las modificaciones constantes en la interfaz de usuario y en la lógica de la aplicación.
+Es importante tener en cuenta que debido a la naturaleza cambiante de www.advantageonlineshopping.com/ he mantenido la automatización actualizada hasta noviembre de 2023. Esto implica adaptarse a las modificaciones constantes en la interfaz de usuario y en la lógica de la aplicación.
 
 ## Enfoque de Página de Objetos (POM)
 
