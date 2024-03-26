@@ -1,40 +1,37 @@
-# Automatización de Módulos en advantagedemoshopping con Página de Objetos (POM) en Cypress - Noviembre 2023
 
-¡Saludos! Me llamo Luis Penagos y estoy emocionado de compartir cómo he implementado la automatización de los módulos en la página de aprendizaje www.advantageonlineshopping.com/ utilizando el enfoque de Página de Objetos (POM) en Cypress.
+Automation of Modules in advantagedemoshopping with Page Object Model (POM) in Cypress - November 2023
+Greetings! My name is Luis Penagos, and I'm excited to share how I've implemented the automation of modules on the learning page www.advantageonlineshopping.com/ using the Page Object Model (POM) approach in Cypress.
 
-## Acerca del Proyecto
+About the Project
+www.advantageonlineshopping.com/ is a learning platform for automation, designed for educational purposes. In this project, I've applied Cypress, an automated testing tool, to ensure the stability and reliability of critical modules of the application.
 
-www.advantageonlineshopping.com/ es una plataforma de aprendizaje para automatización, diseñada para propósitos educativos. En este proyecto, he aplicado Cypress, una herramienta de automatización de pruebas, para garantizar la estabilidad y confiabilidad de los módulos críticos de la aplicación.
+November 2023 Update
+It's important to note that due to the ever-changing nature of www.advantageonlineshopping.com/, I've kept the automation up-to-date until November 2023. This involves adapting to constant modifications in the user interface and application logic.
 
-## Actualización a Noviembre de 2023
+Page Object Model (POM) Approach
+The implementation is based on the POM pattern, which promotes a modular and maintainable structure for automation testing. Each page of the application has its own object file that encapsulates the specific elements and actions of that page.
 
-Es importante tener en cuenta que debido a la naturaleza cambiante de www.advantageonlineshopping.com/ he mantenido la automatización actualizada hasta noviembre de 2023. Esto implica adaptarse a las modificaciones constantes en la interfaz de usuario y en la lógica de la aplicación.
+Automation Examples
+Below are some examples of automated actions using Cypress and POM:
 
-## Enfoque de Página de Objetos (POM)
-
-La implementación se basa en el patrón POM, que promueve una estructura modular y mantenible para las pruebas de automatización. Cada página de la aplicación tiene su propio archivo de objeto que encapsula los elementos y acciones específicos de esa página.
-
-## Ejemplos de Automatización
-
-A continuación, se presentan algunos ejemplos de las acciones automatizadas utilizando Cypress y POM:
-
-```javascript
-// Ejemplo de acceso a la página de inicio
+javascript
+Copy code
+// Example of accessing the homepage
 import HomePage from './pageObjects/HomePage';
 
-describe('Pruebas en advantagedemoshopping', () => {
+describe('Testing advantagedemoshopping', () => {
   const homePage = new HomePage();
 
-  it('Iniciar sesión correctamente', () => {
+  it('Successfully log in', () => {
     homePage.visit();
-    homePage.login('usuario', 'contraseña');
-    // Agregar validaciones según sea necesario
+    homePage.login('username', 'password');
+    // Add validations as necessary
   });
 
-  it('Agregar producto al carrito', () => {
+  it('Add product to cart', () => {
     homePage.visit();
-    homePage.buscarProducto('nombreProducto');
-    homePage.agregarAlCarrito();
-    // Agregar validaciones según sea necesario
+    homePage.searchProduct('productName');
+    homePage.addToCart();
+    // Add validations as necessary
   });
 });
